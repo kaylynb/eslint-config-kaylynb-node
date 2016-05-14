@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-kaylynb-node",
+  "version": "1.0.0",
+  "description": "Standard eslint configs for Node.js projects",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "kaylynb/eslint-config-kaylynb-node",
+  "author": "Kaylyn Bogle",
+  "homepage": "https://github.com/kaylynb/eslint-config-kaylynb-node",
+  "bugs": {
+    "url": "https://github.com/kaylynb/eslint-config-kaylynb-node/issues"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^2.9.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.9.0",
+    "mocha": "^2.4.5"
+  }
+}
