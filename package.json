@@ -8,7 +8,8 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "npm run lint && mocha",
+    "lint": "eslint ."
   },
   "repository": "kaylynb/eslint-config-kaylynb-node",
   "author": "Kaylyn Bogle",
