@@ -70,7 +70,9 @@
 
     "array-bracket-spacing": [2, "never"],
     "block-spacing": 2,
-    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
+    "brace-style": [2, "1tbs", {
+        "allowSingleLine": true
+    }],
     "comma-style": [2, "last"],
     "computed-property-spacing": 2,
     "eol-last": 2,
