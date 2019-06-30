@@ -10,7 +10,7 @@
 
 	"rules": {
 		"no-cond-assign": 2,
-		"no-constant-condition": 2,
+		"no-constant-condition": [2, { "checkLoops": false }],
 		"no-control-regex": 2,
 		"no-debugger": 2,
 		"no-dupe-args": 2,
